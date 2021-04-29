@@ -8,7 +8,7 @@ namespace Calculator
         {
             string phrase = "Ateo  Poco Poeta";
             int ammountOfLetters = letterCount(phrase);
-            int f = 7;
+            int f = 10;
             Console.WriteLine("The fibonacci of '" + f + "' is: " + Fibonacci(f));
 
             if (isPalindrome(phrase.ToLower()))
